@@ -1,3 +1,13 @@
+body {
+	font-family: 'Merriweather', serif;
+}
+
+#btns {
+	position: absolute;
+	left: 30%;
+	margin-top: 25px
+}
+
 #increment {
   padding: 10px
 }
@@ -24,7 +34,7 @@
 }
 
 #decrement {
-  padding: 10px;
+	padding: 10px;
 }
 
 #decrement button {
@@ -49,7 +59,7 @@
 }
 
 .score {
-  font-size: 50px;
+  font-size: 75px;
   font-weight: lighter;
   outline: none;
   border: none;
@@ -68,7 +78,7 @@
 .outer-flex {
   display: flex;
   justify-content: space-between;
-  margin: 10px 50px;
+  margin: 100px 50px 50px 50px;
 }
 
 .inner-flex {

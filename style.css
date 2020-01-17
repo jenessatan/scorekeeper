@@ -3,9 +3,12 @@ body {
 }
 
 #btns {
-	position: absolute;
-	left: 30%;
+	display: inline-block;
 	margin-top: 25px
+}
+
+#btn-parent {
+	text-align: center;
 }
 
 #increment {
